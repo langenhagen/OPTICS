@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OPTICS\DataPoint.hpp">
+      <Filter>OPTICS</Filter>
+    </ClInclude>
+    <ClInclude Include="OPTICS\optics.hpp">
+      <Filter>OPTICS</Filter>
+    </ClInclude>
+    <ClInclude Include="OPTICS\common.hpp">
+      <Filter>OPTICS</Filter>
+    </ClInclude>
+    <ClInclude Include="OPTICS_test.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OPTICS">
+      <UniqueIdentifier>{f1867ee8-0091-416e-866a-4977ff4b07d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
